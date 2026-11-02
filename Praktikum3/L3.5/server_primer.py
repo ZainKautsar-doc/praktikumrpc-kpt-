@@ -1,6 +1,9 @@
 from concurrent import futures
 import sys, os
-sys.path.append(os.path.abspath(r"Praktikum3\Praktikum"))
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+PRAKTIKUM_DIR = os.path.abspath(os.path.join(BASE_DIR, "..", "Praktikum"))
+if PRAKTIKUM_DIR not in sys.path:
+    sys.path.insert(0, PRAKTIKUM_DIR)
 import grpc
 import akademik_pb2 as pb
 import akademik_pb2_grpc as pb_grpc
