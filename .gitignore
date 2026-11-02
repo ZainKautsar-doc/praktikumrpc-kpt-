@@ -1,0 +1,14 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Office / Word temporary lock files
+~$*.docx
+~$*.doc
