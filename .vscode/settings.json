@@ -1,0 +1,15 @@
+{
+  "python.analysis.extraPaths": [
+    "${workspaceFolder}/Praktikum3/Praktikum",
+    "${workspaceFolder}/Praktikum2/Praktikum",
+    "${workspaceFolder}/Praktikum2/L2.1",
+    "${workspaceFolder}/Praktikum2/L2.2",
+    "${workspaceFolder}/Praktikum2/L2.3",
+    "${workspaceFolder}/Praktikum2/L2.5"
+  ],
+  "python.autoComplete.extraPaths": [
+    "${workspaceFolder}/Praktikum3/Praktikum",
+    "${workspaceFolder}/Praktikum2/Praktikum"
+  ]
+}
+
